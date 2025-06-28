@@ -6,7 +6,7 @@ from datetime import datetime
 engine = create_engine('sqlite:///chats.db')
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
-
+print("bruuh")
 class Memory:
     def __init__(self):
         self.session = Session()
