@@ -42,8 +42,6 @@ class Agent:
             "I'm just a simulation, but I think you're great!",
             "Let me think... How about a joke? Why did the computer go to therapy? It had too many bytes of emotional baggage!",
             "Sorry, I’m simulated and don’t have all the answers yet.",
-            "boy shut the fuck up",
-            "fuck off",
             "That’s an interesting question! Let’s pretend the answer is 42."
         ]
 
