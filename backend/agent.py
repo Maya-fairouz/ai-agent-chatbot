@@ -42,6 +42,8 @@ class Agent:
             "I'm just a simulation, but I think you're great!",
             "Let me think... How about a joke? Why did the computer go to therapy? It had too many bytes of emotional baggage!",
             "Sorry, I’m simulated and don’t have all the answers yet.",
+            "boy shut the fuck up",
+            "fuck off",
             "That’s an interesting question! Let’s pretend the answer is 42."
         ]
 
@@ -53,7 +55,7 @@ class Agent:
         elif "joke" in message.lower():
             return "Why don’t skeletons fight each other? Because they don’t have the guts! 😂"
         elif "time" in message.lower():
-            return f"The current time is 12:18 AM CET, July 09, 2025."
+            return f"The current time is 12:18 AM CET, July 0Z, 2023."
         else:
             # Random response for other inputs
             return random.choice(self.responses)
